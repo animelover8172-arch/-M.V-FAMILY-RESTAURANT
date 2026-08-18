@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-ui: 'Poppins', 'Inter', system-ui, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #FAFAF7;
+    color: #1C1C1C;
+    margin: 0;
+  }
+
+  h1, h2, h3, h4, .font-serif, .font-serif-heading {
+    font-family: var(--font-heading);
+  }
+
+  button, .font-ui {
+    font-family: var(--font-ui);
+  }
+}
+
+/* Luxury / Prestige Design System Classes */
+.font-serif {
+  font-family: 'Playfair Display', 'Georgia', serif;
+}
+
+.font-sans, .font-body {
+  font-family: 'Inter', 'Helvetica Neue', system-ui, sans-serif;
+}
+
+.font-ui {
+  font-family: 'Poppins', 'Arial', system-ui, sans-serif;
+}
+
+.gold-accent {
+  color: #C9A45C;
+}
+
+.bg-ivory {
+  background-color: #FAFAF7;
+}
+
+.card-shadow {
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.05);
+}
+
+.card-shadow-lg {
+  box-shadow: 0 16px 40px -16px rgba(28, 28, 28, 0.08);
+}
+
+.border-champagne {
+  border-color: #E8E4DC;
+}
+
+/* Subtle image zoom transition */
+.img-zoom {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.img-zoom:hover {
+  transform: scale(1.04);
+}
+
+/* Glass & translucent effects on light background */
+.glass-nav {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+

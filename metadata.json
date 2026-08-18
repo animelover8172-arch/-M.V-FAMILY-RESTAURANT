@@ -1,0 +1,7 @@
+{
+  "name": "M.V Family Restaurant",
+  "description": "Premium, modern website for M.V Family Restaurant in Sasaram, Bihar featuring family dining, menu highlights, reservations, and location details.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
